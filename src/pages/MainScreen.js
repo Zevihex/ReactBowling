@@ -1,4 +1,3 @@
-
 function MainScreen() {
   return (
     <div className="App">

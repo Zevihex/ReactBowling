@@ -7,3 +7,61 @@ h1 {
   text-align: center;
   font-size: 100px;
 }
+
+.bowling-score-sheet {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bowling-score-player-number, .bowling-score-player-name, .bowling-score-column, #final-bowling-score-column, .bowling-score, 
+.bowling-score-inn-num, #final-bowling-score-inn-num, .bowling-score-1, .bowling-score-2, 
+#final-bowling-score-1, #final-bowling-score-2, #final-bowling-score-3, .total-score, #final-total-score, .name-header, .name-space, .player-header, .player-id-space, .total-score-header, .total-score-space {  
+  color: white;
+  border-style: solid;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+}
+
+.bowling-score-card {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.bowling-score-column, #final-bowling-score-column {
+  display: grid;
+}
+
+.bowling-score-player-name {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.bowling-score-inn-num {
+  grid-row: 1;
+  width: 100%;
+}
+
+#final-bowling-score-inn-num {
+  grid-row: 1;
+  width: 200%;
+
+}
+
+.bowling-score-1, .bowling-score-2 {
+  grid-row: 2;
+}
+
+#final-bowling-score-1, #final-bowling-score-2, #final-bowling-score-3 {
+  grid-row: 2;
+}
+
+.total-score {
+  grid-row: 3;
+  width: 100%;
+}
+
+#final-total-score {
+  grid-row: 3;
+  width: 200%;
+}
